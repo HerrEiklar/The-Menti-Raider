@@ -1,0 +1,17 @@
+{
+  "name": "menti",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "dependencies": {
+    "axios": "^0.23.0",
+    "express": "^4.17.1"
+  },
+  "scripts": {
+    "start:cli": "node src-cli/index.js",
+    "start:web": "node src-web/index.js"
+  },
+  "author": "Elias Huber <elias@huber.host>",
+  "license": "ISC"
+}
